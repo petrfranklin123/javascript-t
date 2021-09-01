@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <a id="a_1" href="">Ссылка 1</a>
+    <a id="a_2" href="">Ссылка 2</a>
+    <a id="a_3" href="">Ссылка 3</a>
+    <a id="a_4" href="">Ссылка 4</a>
+    
+    <button id="growing">Нажми меня</button>
+
+    <style>
+    #growing {
+    transition: font-size 3s, color 2s;
+    }
+    </style>
+
+    <script>
+        document.getElementById("growing").addEventListener('click', big);
+        function big(elem){
+            elem.target.style.fontSize = '36px';
+            elem.target.style.color = 'red';
+        }
+    //growing.onclick = function() {
+    //this.style.fontSize = '36px';
+    //this.style.color = 'red';
+    //};
+    </script>
+
+
+    <script src="main.js"></script>
+</body>
+</html>

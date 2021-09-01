@@ -1,0 +1,2 @@
+let str = (5 < 6 || (true && (5 >= 5 && (false || true) && (true && true))));
+console.log(`(5 < 6 || (true && (5 >= 5 && (false || true) && (true && true)))) = ${(5 < 6 || (true && (5 >= 5 && (false || true) && (true && true))))}`)

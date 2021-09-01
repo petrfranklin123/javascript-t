@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #error{
+            display: none;
+            color: red;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="#" name="myforn" method="POST">
+        <p id="error"></p>
+        <div class="form">
+            <label for="">Имя</label><input name="name" type="text">
+        </div>
+        <div class="form">
+            <label for="">Согласен с правиласми сайта</label><input type="checkbox" value="1" name="rules">
+        </div>
+        <div class="form">
+            <input type="submit" name="sbutton" value="Отправить">
+        </div>
+    </form>
+
+    <script src="main.js"></script>
+</body>
+</html>
